@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3346811C0B20B800EBCB51 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3346801C0B20B800EBCB51 /* Message.m */; };
+		BCAE01E81C095123003810AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE01E71C095123003810AA /* main.m */; };
+		BCAE01EB1C095123003810AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE01EA1C095123003810AA /* AppDelegate.m */; };
+		BCAE01EE1C095123003810AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE01ED1C095123003810AA /* ViewController.m */; };
+		BCAE01F31C095123003810AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAE01F21C095123003810AA /* Assets.xcassets */; };
+		BCAE02011C095123003810AA /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE02001C095123003810AA /* ________Tests.m */; };
+		BCAE020C1C095123003810AA /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE020B1C095123003810AA /* ________UITests.m */; };
+		BCAE021C1C095179003810AA /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE021B1C095179003810AA /* HttpRequest.m */; };
+		BCAE021F1C095189003810AA /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE021E1C095189003810AA /* HttpResponse.m */; };
+		BCAE02221C09613A003810AA /* HttpNetWorkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAE02211C09613A003810AA /* HttpNetWorkerManager.m */; };
+		BCB6A5E51C0990B3002DE1B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB6A5E41C0990B3002DE1B5 /* Storyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCAE01FD1C095123003810AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE01DB1C095123003810AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE01E21C095123003810AA;
+			remoteInfo = "异步网路请求框架";
+		};
+		BCAE02081C095123003810AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCAE01DB1C095123003810AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCAE01E21C095123003810AA;
+			remoteInfo = "异步网路请求框架";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC33467F1C0B20B800EBCB51 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		BC3346801C0B20B800EBCB51 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		BCAE01E31C095123003810AA /* 异步网路请求框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "异步网路请求框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE01E71C095123003810AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCAE01E91C095123003810AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCAE01EA1C095123003810AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCAE01EC1C095123003810AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCAE01ED1C095123003810AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCAE01F21C095123003810AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAE01F71C095123003810AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAE01FC1C095123003810AA /* 异步网路请求框架Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "异步网路请求框架Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE02001C095123003810AA /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		BCAE02021C095123003810AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAE02071C095123003810AA /* 异步网路请求框架UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "异步网路请求框架UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAE020B1C095123003810AA /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		BCAE020D1C095123003810AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCAE021A1C095179003810AA /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		BCAE021B1C095179003810AA /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		BCAE021D1C095189003810AA /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponse.h; sourceTree = "<group>"; };
+		BCAE021E1C095189003810AA /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpResponse.m; sourceTree = "<group>"; };
+		BCAE02201C09613A003810AA /* HttpNetWorkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpNetWorkerManager.h; sourceTree = "<group>"; };
+		BCAE02211C09613A003810AA /* HttpNetWorkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpNetWorkerManager.m; sourceTree = "<group>"; };
+		BCB6A5E41C0990B3002DE1B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAE01E01C095123003810AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE01F91C095123003810AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE02041C095123003810AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAE01DA1C095123003810AA = {
+			isa = PBXGroup;
+			children = (
+				BCAE01E51C095123003810AA /* 异步网路请求框架 */,
+				BCAE01FF1C095123003810AA /* 异步网路请求框架Tests */,
+				BCAE020A1C095123003810AA /* 异步网路请求框架UITests */,
+				BCAE01E41C095123003810AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAE01E41C095123003810AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE01E31C095123003810AA /* 异步网路请求框架.app */,
+				BCAE01FC1C095123003810AA /* 异步网路请求框架Tests.xctest */,
+				BCAE02071C095123003810AA /* 异步网路请求框架UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAE01E51C095123003810AA /* 异步网路请求框架 */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE02191C09514D003810AA /* httpCliten */,
+				BCAE01E91C095123003810AA /* AppDelegate.h */,
+				BCAE01EA1C095123003810AA /* AppDelegate.m */,
+				BCAE01EC1C095123003810AA /* ViewController.h */,
+				BCAE01ED1C095123003810AA /* ViewController.m */,
+				BCAE01F21C095123003810AA /* Assets.xcassets */,
+				BCAE01F71C095123003810AA /* Info.plist */,
+				BCAE01E61C095123003810AA /* Supporting Files */,
+				BCB6A5E41C0990B3002DE1B5 /* Storyboard.storyboard */,
+				BC33467F1C0B20B800EBCB51 /* Message.h */,
+				BC3346801C0B20B800EBCB51 /* Message.m */,
+			);
+			path = "异步网路请求框架";
+			sourceTree = "<group>";
+		};
+		BCAE01E61C095123003810AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE01E71C095123003810AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCAE01FF1C095123003810AA /* 异步网路请求框架Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE02001C095123003810AA /* ________Tests.m */,
+				BCAE02021C095123003810AA /* Info.plist */,
+			);
+			path = "异步网路请求框架Tests";
+			sourceTree = "<group>";
+		};
+		BCAE020A1C095123003810AA /* 异步网路请求框架UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE020B1C095123003810AA /* ________UITests.m */,
+				BCAE020D1C095123003810AA /* Info.plist */,
+			);
+			path = "异步网路请求框架UITests";
+			sourceTree = "<group>";
+		};
+		BCAE02191C09514D003810AA /* httpCliten */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE021A1C095179003810AA /* HttpRequest.h */,
+				BCAE021B1C095179003810AA /* HttpRequest.m */,
+				BCAE021D1C095189003810AA /* HttpResponse.h */,
+				BCAE021E1C095189003810AA /* HttpResponse.m */,
+				BCAE02201C09613A003810AA /* HttpNetWorkerManager.h */,
+				BCAE02211C09613A003810AA /* HttpNetWorkerManager.m */,
+			);
+			name = httpCliten;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAE01E21C095123003810AA /* 异步网路请求框架 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE02101C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架" */;
+			buildPhases = (
+				BCAE01DF1C095123003810AA /* Sources */,
+				BCAE01E01C095123003810AA /* Frameworks */,
+				BCAE01E11C095123003810AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "异步网路请求框架";
+			productName = "异步网路请求框架";
+			productReference = BCAE01E31C095123003810AA /* 异步网路请求框架.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCAE01FB1C095123003810AA /* 异步网路请求框架Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE02131C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架Tests" */;
+			buildPhases = (
+				BCAE01F81C095123003810AA /* Sources */,
+				BCAE01F91C095123003810AA /* Frameworks */,
+				BCAE01FA1C095123003810AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE01FE1C095123003810AA /* PBXTargetDependency */,
+			);
+			name = "异步网路请求框架Tests";
+			productName = "异步网路请求框架Tests";
+			productReference = BCAE01FC1C095123003810AA /* 异步网路请求框架Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCAE02061C095123003810AA /* 异步网路请求框架UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAE02161C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架UITests" */;
+			buildPhases = (
+				BCAE02031C095123003810AA /* Sources */,
+				BCAE02041C095123003810AA /* Frameworks */,
+				BCAE02051C095123003810AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCAE02091C095123003810AA /* PBXTargetDependency */,
+			);
+			name = "异步网路请求框架UITests";
+			productName = "异步网路请求框架UITests";
+			productReference = BCAE02071C095123003810AA /* 异步网路请求框架UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAE01DB1C095123003810AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "黄增权";
+				TargetAttributes = {
+					BCAE01E21C095123003810AA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BCAE01FB1C095123003810AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BCAE01E21C095123003810AA;
+					};
+					BCAE02061C095123003810AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BCAE01E21C095123003810AA;
+					};
+				};
+			};
+			buildConfigurationList = BCAE01DE1C095123003810AA /* Build configuration list for PBXProject "异步网路请求框架" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAE01DA1C095123003810AA;
+			productRefGroup = BCAE01E41C095123003810AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAE01E21C095123003810AA /* 异步网路请求框架 */,
+				BCAE01FB1C095123003810AA /* 异步网路请求框架Tests */,
+				BCAE02061C095123003810AA /* 异步网路请求框架UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAE01E11C095123003810AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE01F31C095123003810AA /* Assets.xcassets in Resources */,
+				BCB6A5E51C0990B3002DE1B5 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE01FA1C095123003810AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE02051C095123003810AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAE01DF1C095123003810AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE01EE1C095123003810AA /* ViewController.m in Sources */,
+				BCAE021C1C095179003810AA /* HttpRequest.m in Sources */,
+				BCAE021F1C095189003810AA /* HttpResponse.m in Sources */,
+				BC3346811C0B20B800EBCB51 /* Message.m in Sources */,
+				BCAE02221C09613A003810AA /* HttpNetWorkerManager.m in Sources */,
+				BCAE01EB1C095123003810AA /* AppDelegate.m in Sources */,
+				BCAE01E81C095123003810AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE01F81C095123003810AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE02011C095123003810AA /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAE02031C095123003810AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAE020C1C095123003810AA /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCAE01FE1C095123003810AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE01E21C095123003810AA /* 异步网路请求框架 */;
+			targetProxy = BCAE01FD1C095123003810AA /* PBXContainerItemProxy */;
+		};
+		BCAE02091C095123003810AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCAE01E21C095123003810AA /* 异步网路请求框架 */;
+			targetProxy = BCAE02081C095123003810AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCAE020E1C095123003810AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCAE020F1C095123003810AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAE02111C095123003810AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "异步网路请求框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCAE02121C095123003810AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "异步网路请求框架/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCAE02141C095123003810AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "异步网路请求框架Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/异步网路请求框架.app/异步网路请求框架";
+			};
+			name = Debug;
+		};
+		BCAE02151C095123003810AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "异步网路请求框架Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/异步网路请求框架.app/异步网路请求框架";
+			};
+			name = Release;
+		};
+		BCAE02171C095123003810AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "异步网路请求框架UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "异步网路请求框架";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCAE02181C095123003810AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "异步网路请求框架UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "quan.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "异步网路请求框架";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAE01DE1C095123003810AA /* Build configuration list for PBXProject "异步网路请求框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE020E1C095123003810AA /* Debug */,
+				BCAE020F1C095123003810AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE02101C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE02111C095123003810AA /* Debug */,
+				BCAE02121C095123003810AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE02131C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE02141C095123003810AA /* Debug */,
+				BCAE02151C095123003810AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAE02161C095123003810AA /* Build configuration list for PBXNativeTarget "异步网路请求框架UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAE02171C095123003810AA /* Debug */,
+				BCAE02181C095123003810AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAE01DB1C095123003810AA /* Project object */;
+}
