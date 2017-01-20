@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5f02;&#x6b65;&#x7f51;&#x8def;&#x8bf7;&#x6c42;&#x6846;&#x67b6;/HttpNetWorkerManager.m"
+            timestampString = "506598587.361441"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "+manager"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[HttpNetWorkerManager manager]"
+                  moduleName = "&#x5f02;&#x6b65;&#x7f51;&#x8def;&#x8bf7;&#x6c42;&#x6846;&#x67b6;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhb/Desktop/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/iOS-httpNetworker-runtime/%E5%BC%82%E6%AD%A5%E7%BD%91%E8%B7%AF%E8%AF%B7%E6%B1%82%E6%A1%86%E6%9E%B6/%E5%BC%82%E6%AD%A5%E7%BD%91%E8%B7%AF%E8%AF%B7%E6%B1%82%E6%A1%86%E6%9E%B6/HttpNetWorkerManager.m"
+                  timestampString = "506598588.587786"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__31+[HttpNetWorkerManager manager]_block_invoke"
+                  moduleName = "&#x5f02;&#x6b65;&#x7f51;&#x8def;&#x8bf7;&#x6c42;&#x6846;&#x67b6;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhb/Desktop/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/iOS-httpNetworker-runtime/%E5%BC%82%E6%AD%A5%E7%BD%91%E8%B7%AF%E8%AF%B7%E6%B1%82%E6%A1%86%E6%9E%B6/%E5%BC%82%E6%AD%A5%E7%BD%91%E8%B7%AF%E8%AF%B7%E6%B1%82%E6%A1%86%E6%9E%B6/HttpNetWorkerManager.m"
+                  timestampString = "506598588.589116"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

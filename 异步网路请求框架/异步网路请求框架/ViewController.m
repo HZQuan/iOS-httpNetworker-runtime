@@ -19,16 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     HttpNetWorkerManager *manager = [HttpNetWorkerManager manager];
-    NSDictionary *ditonaryParams =  [NSDictionary dictionaryWithObjectsAndKeys:@"huangzq",@"zhanghao",@"7563268",@"password",@"go",@"gogogo", nil];
-    Class class = NSClassFromString(@"Message");
-    id object = [[class alloc]init];
-    NSLog(@"%@",object);
-    
-    HttpRequest *request = [[HttpRequest alloc] initWithUrl:@"http://127.0.0.1:8080/SSH/message.jsp" params:ditonaryParams method:post modle:@"Message"];
-    [manager requestWithRequeter:request response:^(HttpResponse *response) {
-        NSMutableArray *mutableArray = (NSMutableArray *)response.responseModelArray;
-        NSLog(@"%lu",(unsigned long)mutableArray.count);
-    }];
+//    NSDictionary *ditonaryParams =  [NSDictionary dictionaryWithObjectsAndKeys:@"huangzq",@"zhanghao",@"7563268",@"password",@"go",@"gogogo", nil];
+//    Class class = NSClassFromString(@"Message");
+//    id object = [[class alloc]init];
+//    NSLog(@"%@",object);
+//    
+//    HttpRequest *request = [[HttpRequest alloc] initWithUrl:@"http://127.0.0.1:8080/SSH/message.jsp" params:ditonaryParams method:post modle:@"Message"];
+//    [manager requestWithRequeter:request response:^(HttpResponse *response) {
+//        NSMutableArray *mutableArray = (NSMutableArray *)response.responseModelArray;
+//        NSLog(@"%lu",(unsigned long)mutableArray.count);
+//    }];
     
 }
 

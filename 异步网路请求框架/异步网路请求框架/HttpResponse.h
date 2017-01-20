@@ -13,9 +13,8 @@
 @property (nonatomic,copy) NSString *responseType;
 @property (nonatomic,copy) NSString *modelClass;
 @property (nonatomic,strong) id responseModle;
--(instancetype) initWithData:(id)responseData type:(NSString *)type classname:(NSString *)className;
 @property (nonatomic,strong) id responseModelArray;
 
-
+-(instancetype) initWithData:(id)responseData type:(NSString *)type classname:(NSString *)className;
 
 @end

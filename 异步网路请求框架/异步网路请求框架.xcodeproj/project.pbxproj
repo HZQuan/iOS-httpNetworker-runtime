@@ -232,6 +232,7 @@
 				TargetAttributes = {
 					BCAE01E21C095123003810AA = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3UFAY7EAJX;
 					};
 					BCAE01FB1C095123003810AA = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UFAY7EAJX;
 				INFOPLIST_FILE = "异步网路请求框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UFAY7EAJX;
 				INFOPLIST_FILE = "异步网路请求框架/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

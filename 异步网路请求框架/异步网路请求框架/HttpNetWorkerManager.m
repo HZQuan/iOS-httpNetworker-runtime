@@ -12,7 +12,7 @@
 +(instancetype)manager
 {
     static dispatch_once_t once;
-    static HttpNetWorkerManager *manager;
+    static HttpNetWorkerManager *manager = nil;
     dispatch_once(&once, ^{
         manager = [[super alloc]init];
         
