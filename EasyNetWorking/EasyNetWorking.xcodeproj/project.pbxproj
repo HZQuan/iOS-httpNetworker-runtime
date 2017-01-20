@@ -15,6 +15,10 @@
 		14A617F61E3254F900BB2016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A617F41E3254F900BB2016 /* LaunchScreen.storyboard */; };
 		14A618011E3254F900BB2016 /* EasyNetWorkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A618001E3254F900BB2016 /* EasyNetWorkingTests.m */; };
 		14A6180C1E3254F900BB2016 /* EasyNetWorkingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6180B1E3254F900BB2016 /* EasyNetWorkingUITests.m */; };
+		14A618221E32553D00BB2016 /* HttpNetWorkerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6181A1E32553D00BB2016 /* HttpNetWorkerManager.m */; };
+		14A618231E32553D00BB2016 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6181C1E32553D00BB2016 /* HttpRequest.m */; };
+		14A618241E32553D00BB2016 /* HttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6181E1E32553D00BB2016 /* HttpResponse.m */; };
+		14A618251E32553D00BB2016 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A618201E32553D00BB2016 /* Message.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		14A618071E3254F900BB2016 /* EasyNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A6180B1E3254F900BB2016 /* EasyNetWorkingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyNetWorkingUITests.m; sourceTree = "<group>"; };
 		14A6180D1E3254F900BB2016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A618191E32553D00BB2016 /* HttpNetWorkerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpNetWorkerManager.h; sourceTree = "<group>"; };
+		14A6181A1E32553D00BB2016 /* HttpNetWorkerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpNetWorkerManager.m; sourceTree = "<group>"; };
+		14A6181B1E32553D00BB2016 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		14A6181C1E32553D00BB2016 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		14A6181D1E32553D00BB2016 /* HttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpResponse.h; sourceTree = "<group>"; };
+		14A6181E1E32553D00BB2016 /* HttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpResponse.m; sourceTree = "<group>"; };
+		14A6181F1E32553D00BB2016 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		14A618201E32553D00BB2016 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		14A617E51E3254F900BB2016 /* EasyNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				14A618211E32553D00BB2016 /* networking */,
 				14A617E91E3254F900BB2016 /* AppDelegate.h */,
 				14A617EA1E3254F900BB2016 /* AppDelegate.m */,
 				14A617EC1E3254F900BB2016 /* ViewController.h */,
@@ -138,6 +151,22 @@
 				14A6180D1E3254F900BB2016 /* Info.plist */,
 			);
 			path = EasyNetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		14A618211E32553D00BB2016 /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				14A618191E32553D00BB2016 /* HttpNetWorkerManager.h */,
+				14A6181A1E32553D00BB2016 /* HttpNetWorkerManager.m */,
+				14A6181B1E32553D00BB2016 /* HttpRequest.h */,
+				14A6181C1E32553D00BB2016 /* HttpRequest.m */,
+				14A6181D1E32553D00BB2016 /* HttpResponse.h */,
+				14A6181E1E32553D00BB2016 /* HttpResponse.m */,
+				14A6181F1E32553D00BB2016 /* Message.h */,
+				14A618201E32553D00BB2016 /* Message.m */,
+			);
+			name = networking;
+			path = ../../../../EasyNetWorking/EasyNetWorking/networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A617EE1E3254F900BB2016 /* ViewController.m in Sources */,
+				14A618221E32553D00BB2016 /* HttpNetWorkerManager.m in Sources */,
+				14A618241E32553D00BB2016 /* HttpResponse.m in Sources */,
+				14A618251E32553D00BB2016 /* Message.m in Sources */,
 				14A617EB1E3254F900BB2016 /* AppDelegate.m in Sources */,
+				14A618231E32553D00BB2016 /* HttpRequest.m in Sources */,
 				14A617E81E3254F900BB2016 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
