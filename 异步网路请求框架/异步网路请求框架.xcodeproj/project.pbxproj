@@ -111,7 +111,7 @@
 		BCAE01E51C095123003810AA /* 异步网路请求框架 */ = {
 			isa = PBXGroup;
 			children = (
-				BCAE02191C09514D003810AA /* httpCliten */,
+				BCAE02191C09514D003810AA /* EasyNetWorking */,
 				BCAE01E91C095123003810AA /* AppDelegate.h */,
 				BCAE01EA1C095123003810AA /* AppDelegate.m */,
 				BCAE01EC1C095123003810AA /* ViewController.h */,
@@ -152,7 +152,7 @@
 			path = "异步网路请求框架UITests";
 			sourceTree = "<group>";
 		};
-		BCAE02191C09514D003810AA /* httpCliten */ = {
+		BCAE02191C09514D003810AA /* EasyNetWorking */ = {
 			isa = PBXGroup;
 			children = (
 				BCAE021A1C095179003810AA /* HttpRequest.h */,
@@ -162,7 +162,7 @@
 				BCAE02201C09613A003810AA /* HttpNetWorkerManager.h */,
 				BCAE02211C09613A003810AA /* HttpNetWorkerManager.m */,
 			);
-			name = httpCliten;
+			name = EasyNetWorking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
