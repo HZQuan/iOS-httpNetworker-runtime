@@ -15,14 +15,12 @@
     self = [super init];
     _responseData = responseData;
     _modelClass = className;
-    
     return self;
 }
 
 //获取一个类的所有成员变量
 -(NSMutableArray *)getPropertyNamesWithClass:(NSString *)classString
 {
-    
     Class class = NSClassFromString(classString);
     unsigned int count = 0;
     objc_property_t *list = class_copyPropertyList(class, &count);
@@ -34,7 +32,6 @@
     //    NSLog(@"%@",strName);
         [array addObject:strName];
     }
-    
     return array;
 }
 
@@ -62,9 +59,6 @@
     }
     
     return modleArray;
-
-
-
 }
 
 //json解析的数据类型是nfdictonary
@@ -81,9 +75,7 @@
             continue;
         }
         [object setValue:dictonary[key] forKey:key];
-        
     }
-    
     return object;
 
 }

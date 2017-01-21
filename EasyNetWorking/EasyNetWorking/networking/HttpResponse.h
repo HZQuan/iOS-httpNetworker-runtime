@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface HttpResponse : NSObject
-@property (nonatomic,strong) id  responseData;
-@property (nonatomic,copy) NSString *responseType;
-@property (nonatomic,copy) NSString *modelClass;
-@property (nonatomic,strong) id responseModle;
-@property (nonatomic,strong) id responseModelArray;
+@property(nonatomic, strong) id responseData;
+@property(nonatomic, copy) NSString *responseType;
+@property(nonatomic, copy) NSString *modelClass;
+@property(nonatomic, strong) id responseModle;
+@property(nonatomic, strong) id responseModelArray;
 
 -(instancetype) initWithData:(id)responseData type:(NSString *)type classname:(NSString *)className;
 

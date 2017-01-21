@@ -23,7 +23,7 @@
 }
 -(NSOperationQueue *) shareOperationQueue
 {
-    static NSOperationQueue *queue;
+    static NSOperationQueue *queue = nil;
     static dispatch_once_t once;
     dispatch_once(&once, ^{
         queue = [[NSOperationQueue alloc] init];
@@ -90,7 +90,6 @@
         case post:
         {
             urlRequest = [self postWithRequest:request];
-            NSLog(@"dd");
         }
             
             break;
@@ -98,7 +97,7 @@
             break;
     }
     
-[NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+    [NSURLConnection sendAsynchronousRequest:urlRequest queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError) {
             NSLog(@"%@",connectionError);
         }
@@ -109,7 +108,7 @@
         HttpResponse *httpresponse = [[HttpResponse alloc] initWithData:data type:response.MIMEType classname:request.modleName];
     
         responseblock(httpresponse);
-}];
+    }];
 
 }
 

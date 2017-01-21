@@ -9,11 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Message : NSObject
-@property (nonatomic ,copy) NSString* content;
-@property (nonatomic ,copy) NSString* message_id;
-@property (nonatomic ,copy) NSString* time;
-@property (nonatomic ,copy) NSString* user_id;
-
-
+@property(nonatomic ,copy) NSString* content;
+@property(nonatomic ,copy) NSString* message_id;
+@property(nonatomic ,copy) NSString* time;
+@property(nonatomic ,copy) NSString* user_id;
 
 @end

@@ -12,8 +12,8 @@
 typedef void(^responseblock)(HttpResponse *response);
 
 @interface HttpNetWorkerManager : NSObject
-+(instancetype) manager;
--(void) requestWithRequeter:(HttpRequest *)request response:(responseblock) responseblock;
++ (instancetype) manager;
+- (void) requestWithRequeter:(HttpRequest *)request response:(responseblock) responseblock;
 
 
 
